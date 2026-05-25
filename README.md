@@ -22,19 +22,26 @@ Standard AI interactions are often too helpful or collaborative. **Super PM** is
 3.  **The Mid-Interview Pivot:** Just when you think you have a solid roadmap, the interviewer will cut your budget by 70% or introduce a new regulation, testing your ability to adapt under pressure.
 4.  **Meta-Commentary:** Between phases, you get "off-the-record" feedback on your performance, giving you immediate insight into your communication and logical gaps.
 
-## 🛠 How to Use
+## 🛠 Installation
 
-### 1. Installation
-Install the extension via the Gemini CLI:
+### Gemini CLI
 ```bash
-gemini extensions install https://github.com/rupeshurmaliya/super-pm.git
-```
-### 2. Update
-```bash
-gemini extensions update super-pm
+gemini install https://github.com/rupeshurmaliya/super-pm
 ```
 
-### 3. Starting a Session
+### Claude Code
+```bash
+claude skill add https://github.com/rupeshurmaliya/super-pm
+```
+
+### Codex / Copilot CLI
+```bash
+gh copilot extension install https://github.com/rupeshurmaliya/super-pm
+```
+
+## 📖 How to Use
+
+### 1. Starting a Session
 Activate the skill and choose your challenge:
 *   **Select a Track:** Product Sense (Design), Execution (Metrics), or Strategy.
 *   **Select an Industry:** Fintech, EdTech, InsurTech, or General.
